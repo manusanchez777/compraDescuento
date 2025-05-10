@@ -8,7 +8,6 @@ public class CompraDescuento {
         System.out.print("Ingresa el valor de la compra: ");
         double valorCompra = entradaUsuario.nextDouble();
         
-
         if (valorCompra > 200000) {
             double descuento = valorCompra * 0.15;
             double totalConDescuento = valorCompra - descuento;
